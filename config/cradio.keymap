@@ -52,16 +52,16 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ INSERT   │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-            &kp INS    &kp N1     &kp N2     &kp N3     &trans         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
+        //│          │  |       │  "       │  !       │   $      │   │  ^       │  +       │ {        │ }        │          │
+            &none    &kp PIPE     &kp DQT    &kp EXCL  &kp DLLR         &kp CARET   &kp PLUS  &kp LBRC  &kp RBRC    &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &kp SEMI
+        //│ \        │  &       │  :       │  ?       │  %       │   │ #        │ =        │ (        │ )        │  /       │
+            &kp BSLH    &kp AMPS  &kp COLON  &kp QMARK &kp PRCNT       &kp HASH   &kp EQUAL   &kp LPAR   &kp RPAR   &kp FSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-           &caps_word  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
+        //│          │  `       │  ;       │  ~       │  £       │   │          │ *        │  [       │  ]       │          │
+           &none      &kp GRAVE   &kp SEMI  &kp TILDE   &kp POUND      &none      &kp STAR  &kp LBKT    &kp RBKT     &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp ESC        &trans     &trans
+                                             &trans     &trans        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
@@ -69,14 +69,14 @@
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │  [       │  {       │  }       │          │   │  ^       │  (       │  )       │  ]       │  ~       │
-            &trans     &kp LBKT   &kp LBRC   &kp RBRC   &trans         &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp TILDE
+        //│          │   bdn    │  up      │  bup     │          │   │  esc     │  1       │  2       │  3       │          │
+            &none   &kp C_BRI_DOWN &kp UP  &kp C_BRI_UP  &none         &kp ESC    &kp KP_N1  &kp KP_N2  &kp KP_N3   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
-            &kp EXCL   &kp AT     &kp HASH   &kp DLLR   &kp PRCNT      &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSLH   &kp GRAVE
+        //│          │  left    │  down    │  right   │          │   │  del     │  4       │  5       │  6       │          │
+            &none     &kp LEFT   &kp DOWN   &kp RIGHT   &none          &kp DEL    &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
-            &trans     &trans     &trans     &trans     &trans         &kp AMPS   &kp UNDER  &kp PLUS   &kp PIPE   &trans
+        //│          │  mute    │  voldn   │  volup   │          │   │ caps     │  7       │  8       │  9       │          │
+            &none     &kp CMUTE &kp C_VOL_DN &kp C_VOL_UP &none        &kp CAPS   &kp KP_N7  &kp KP_N8   &kp KP_N9   &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
