@@ -52,14 +52,14 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-            &none     &kp N1     &kp N2     &kp N3     &none          &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
+        //│          │  |       │  "       │  !       │  $       │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
+            &none     &kp PIPE   &kp DQT    &kp EXCL   &kp DLLR       &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ \        │  &       │  :       │  ?       │  %       │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp BSLH  &kp AMPS   &kp COLON  &kp QMARK  &kp PRCNT      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-            &none     &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
+        //│          │  `       │  ;       │  ~       │  £       │   │          │          │          │          │          │
+            &none     &kp GRAVE  &kp SEMI   &kp TILDE  &kp NUHS       &trans     &trans     &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
