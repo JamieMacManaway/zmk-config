@@ -55,8 +55,8 @@
         //│          │  |       │  "       │  !       │  $       │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
             &none     &kp PIPE   &kp DQT    &kp EXCL   &kp DLLR       &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ \        │  &       │  :       │  ?       │  %       │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-            &kp BSLH  &kp AMPS   &kp COLON  &kp QMARK  &kp PRCNT      &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT   &kp SEMI
+        //│ \        │  &       │  :       │  ?       │  %       │   │ #        │ =        │ (        │ )        │  /       │
+            &kp BSLH  &kp AMPS   &kp COLON  &kp QMARK  &kp PRCNT      &kp HASH   &kp EQUAL  &kp LPAR   &kp RPAR   &kp FSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  `       │  ;       │  ~       │  £       │   │          │          │          │          │          │
             &none     &kp GRAVE  &kp SEMI   &kp TILDE  &kp NUHS       &trans     &trans     &trans     &trans     &trans
