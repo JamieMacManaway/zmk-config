@@ -52,16 +52,16 @@
         right_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │  |       │  "       │  !       │  $       │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-            &none     &kp PIPE   &kp DQT    &kp EXCL   &kp DLLR       &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
+        //│          │  |       │  "       │  !       │  $       │   │ ^        │ +        │ {        │ }        │          │
+            &none     &kp PIPE   &kp DQT    &kp EXCL   &kp DLLR       &kp CARET  &kp PLUS   &kp LBRC   &kp RBRC   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ \        │  &       │  :       │  ?       │  %       │   │ #        │ =        │ (        │ )        │  /       │
             &kp BSLH  &kp AMPS   &kp COLON  &kp QMARK  &kp PRCNT      &kp HASH   &kp EQUAL  &kp LPAR   &kp RPAR   &kp FSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │  `       │  ;       │  ~       │  £       │   │          │          │          │          │          │
-            &none     &kp GRAVE  &kp SEMI   &kp TILDE  &kp NUHS       &trans     &trans     &trans     &trans     &trans
+        //│          │  `       │  ;       │  ~       │  £       │   │          │ *        │ [        │ ]        │          │
+            &none     &kp GRAVE  &kp SEMI   &kp TILDE  &kp NUHS       &none      &kp STAR   &kp LBKT   &kp RBKT   &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                             &trans     &kp ESC        &trans     &trans
+                                             &trans     &trans        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
