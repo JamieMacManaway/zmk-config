@@ -53,13 +53,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │  |       │  "       │  !       │  $       │   │ ^        │ +        │ {        │ }        │          │
-            &none     &kp PIPE   &kp DQT    &kp EXCL   &kp DLLR       &kp CARET  &kp PLUS   &kp LBRC   &kp RBRC   &none
+            &none     &kp PIPE2  &kp AT     &kp EXCL   &kp DLLR       &kp CARET  &kp PLUS   &kp LBRC   &kp RBRC   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ \        │  &       │  :       │  ?       │  %       │   │ #        │ =        │ (        │ )        │  /       │
-            &kp BSLH  &kp AMPS   &kp COLON  &kp QMARK  &kp PRCNT      &kp HASH   &kp EQUAL  &kp LPAR   &kp RPAR   &kp FSLH
+            &kp NUBS  &kp AMPS   &kp COLON  &kp QMARK  &kp PRCNT      &kp NUSH   &kp EQUAL  &kp LPAR   &kp RPAR   &kp FSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  `       │  ;       │  ~       │  £       │   │          │ *        │ [        │ ]        │          │
-            &none     &kp GRAVE  &kp SEMI   &kp TILDE  &kp NUHS       &none      &kp STAR   &kp LBKT   &kp RBKT   &none
+            &none     &kp GRAVE  &kp SEMI   &kp PIPE   &kp HASH       &none      &kp STAR   &kp LBKT   &kp RBKT   &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
