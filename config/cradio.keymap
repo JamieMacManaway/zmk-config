@@ -20,11 +20,14 @@
             require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
         };
+    };
 
-        cw: caps_word {
-            compatible = "zmk,behavior-caps-word";
-            #binding-cells = <0>;
-            mods = <(MOD_LSHFT | MOD_RSHFT)>;
+    combos {
+        compatible = "zmk,combos";
+        combo_caps_word {
+            key-positions = <12 17>;
+            layers = <0>;
+            bindings = <&caps_word>;
         };
     };
 
@@ -76,13 +79,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │ C_BRI_DN │  UP      │ C_BRI_UP │          │   │  ESC     │  1       │  2       │  3       │          │
-            &none    &kp C_BRI_DN &kp UP   &kp C_BRI_DN &none         &kp ESC    &kp KP_N1  &kp KP_N2   &kp RBKT   &none
+            &none    &kp C_BRI_DN &kp UP   &kp C_BRI_UP &none         &kp ESC    &kp KP_N1  &kp KP_N2   &kp RBKT   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  LEFT    │  DOWN    │  RIGHT   │          │   │  DEL     │  4       │  5       │  6       │  0       │
             &none     &kp LEFT   &kp DOWN   &kp RIGHT  &none          &kp DEL    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_N0
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │ C_MUTE   │ C_VOL_UP │ C_VOL_D  │          │   │          │  7       │  8       │  9       │          │
-            &none    &kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN  &none      &none      &kp KP_N7  &kp KP_N8  &kp KP_N9   &none
+            &none    &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP  &none      &none      &kp KP_N7  &kp KP_N8  &kp KP_N9   &none
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
