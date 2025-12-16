@@ -56,7 +56,7 @@
             &none     &kp PIPE2  &kp AT     &kp EXCL   &kp DLLR       &kp CARET  &kp PLUS   &kp LBRC   &kp RBRC   &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ \        │  &       │  :       │  ?       │  %       │   │ #        │ =        │ (        │ )        │  /       │
-            &kp NUBS  &kp AMPS   &kp COLON  &kp QMARK  &kp PRCNT      &kp NUSH   &kp EQUAL  &kp LPAR   &kp RPAR   &kp FSLH
+            &kp NUBS  &kp AMPS   &kp COLON  &kp QMARK  &kp PRCNT      &kp NUHS   &kp EQUAL  &kp LPAR   &kp RPAR   &kp FSLH
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │  `       │  ;       │  ~       │  £       │   │          │ *        │ [        │ ]        │          │
             &none     &kp GRAVE  &kp SEMI   &kp PIPE   &kp HASH       &none      &kp STAR   &kp LBKT   &kp RBKT   &none
