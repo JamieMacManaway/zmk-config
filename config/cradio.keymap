@@ -7,7 +7,7 @@
 
 / {
     behaviors {
-        ht: hold_tap {
+        mt: mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "balanced";
@@ -73,7 +73,7 @@
         //│  Q       │  X       │  M       │  C       │  V       │   │  K       │  P       │ . >      │ - _      │ , <      │
             &kp Q      &kp X      &kp M      &kp C      &kp V          &kp K      &kp P      &kp DOT  &kp MINUS    &kp COMMA
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &ht 2 BSPC   &kp TAB     &kp ENTER  &ht 1 SPACE
+                                            &mt 2 BSPC &kp TAB        &kp ENTER  &mt 1 SPACE
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
