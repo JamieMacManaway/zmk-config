@@ -23,9 +23,9 @@
 
         cw: caps_word {
             compatible = "zmk,behavior-caps-word";
-            #binding-cells = <0>
-            mods = <(MOD_LSHFT | MOD_RSHFT)>
-        }
+            #binding-cells = <0>;
+            mods = <(MOD_LSHFT | MOD_RSHFT)>;
+        };
     };
 
     conditional_layers {
