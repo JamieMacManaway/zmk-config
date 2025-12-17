@@ -62,7 +62,7 @@
         //│  Q       │  X       │  M       │  C       │  V       │   │  K       │  P       │ . >      │ - _      │ , <      │
             &kp Q      &kp X      &kp M      &kp C      &kp V          &kp K      &kp P      &kp DOT  &kp MINUS    &kp COMMA
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-                                            &mt 2 BSPC &kp TAB        &kp ENTER  &mt 1 SPACE
+                                            &kp TAB    &mt 2 BSPC     &mt 1 SPACE &kp ENTER  
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
             >;
         };
